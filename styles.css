@@ -27,17 +27,25 @@ footer {
     margin-bottom: 10px;
   }
   
-  .country {
-    flex: 1;
-    margin: 30px;
+  .time {
+    text-align: right;
   }
   
-  .countries_1 {
-    vertical-align: middle!important;
-    padding-top:50px!important;
-    font-size: 40px;
-    margin-bottom:5px;
+  .country_time {
+    flex: 1;
+    margin: 30px;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    white-space: nowrap;
+
   }
+  
+  .country_time .time {
+    font-size: 45px; /* Adjust the font size to your preference */
+  }
+
+  
   span.countries {
     font-size: 40px;
     margin-bottom:20px;
@@ -49,7 +57,7 @@ footer {
   
   
 .countries {
-    width: 40%;
+    width: 80%;
     margin: auto;
     align-items: center;
     border-radius: 15px;
