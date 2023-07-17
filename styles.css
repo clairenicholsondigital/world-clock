@@ -1,13 +1,99 @@
 h1 {
-    font-size:32px;
+    font-size:40px;
     font-family:Arial, Helvetica, sans-serif;
     text-align:Center;
 }
 
 p {
     font-family:Arial, Helvetica, sans-serif;
-    text-align:center;
 }
 footer {
     text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+
+}
+
+.time {
+    float: right;
+}
+
+.country_grid {
+    width: 80vw;
+    display: flex;
+    margin: 30px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .country {
+    flex: 1;
+    margin: 30px;
+  }
+  
+  .countries_1 {
+    vertical-align: middle!important;
+    padding-top:50px!important;
+    font-size: 40px;
+    margin-bottom:5px;
+  }
+  span.countries {
+    font-size: 40px;
+    margin-bottom:20px;
+}
+  .country_time {
+    flex: 1;
+    margin: 30px;
+  }
+  
+  
+.countries {
+    width: 40%;
+    margin: auto;
+    align-items: center;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.countries .time {
+    font-size: 45px; /* Adjust the font size to your preference */
+}
+select {
+    width:100%;
+    font-size:18px;
+}
+body {
+    background-color: rgba(60,60,104,0.3);
+}
+#london {
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:40px;
+    margin-bottom:40px;
+}
+
+#tokyo {
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:40px;
+    margin-bottom:40px;
+}
+
+.country_list {
+    font-size:24px;
+    font-weight:600;
+}
+#sydney {
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:40px;
+    margin-bottom:40px;
+}
+
+
+#paris {
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+   margin-top:40px;
+   margin-bottom:40px;
 }
