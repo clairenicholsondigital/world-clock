@@ -81,7 +81,10 @@ select {
 }
 body {
     background-color:#fff;
+
 }
+
+
 #london {
     text-align:left;
     font-family:Arial, Helvetica, sans-serif;
@@ -100,6 +103,7 @@ body {
     box-shadow: 0 2px 4px 0 rgba(60, 60, 104, 0.3);
 padding:30px;
 border-radius:25px;
+height:100%;
 }
 .country_list {
     font-size:24px;
@@ -119,4 +123,23 @@ border-radius:25px;
     font-family:Arial, Helvetica, sans-serif;
    margin-top:40px;
    margin-bottom:40px;
+}
+
+
+/* Additional CSS styles for responsive layout */
+@media (max-width: 767px) {
+    .country-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%; /* Adjust width as needed for smaller screens */
+        margin: 10px auto;
+    }
+    
+    .country-info:not(:first-child) {
+        margin-top: 20px;
+    }
+    span.countries {
+        text-align:center!important;
+    }
 }
