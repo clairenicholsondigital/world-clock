@@ -69,6 +69,8 @@ footer {
 select {
     width:100%;
     font-size:18px;
+    margin-top:40px;
+    margin-bottom:40px;
 }
 body {
     background-color: rgba(60,60,104,0.3);
