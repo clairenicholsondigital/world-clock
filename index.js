@@ -44,7 +44,7 @@ function showSelectedTime() {
     citiesElement.innerHTML += `<span class='time'>${moment().tz("Europe/Paris").format("h:mm A")}</span>`;
   } else if (selectedCountry === "Local") {
   } else if (selectedCountry === "Tokyo") {
-  let TokyoTime = moment().tz("Asia/Tokyo").format("dddd DD MMMM YYYY");
+    let TokyoTime = moment().tz("Asia/Tokyo").format("dddd DD MMMM YYYY");
    citiesElement.innerHTML = `<span class='countries'>Tokyo<img src="https://em-content.zobj.net/thumbs/240/apple/354/flag-japan_1f1ef-1f1f5.png" width="30px"/></span>&nbsp;` + TokyoTime;
    ciitiesElement.innerHTML += `<span class='time'>${moment().tz("Asia/Tokyo").format("h:mm A")}</span>`;  
   }
