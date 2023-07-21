@@ -43,6 +43,7 @@ footer {
   
   .country_time .time {
     font-size: 45px; /* Adjust the font size to your preference */
+    font-weight:700;
   }
 
   
@@ -66,6 +67,12 @@ footer {
 .countries .time {
     font-size: 45px; /* Adjust the font size to your preference */
 }
+.morningafternoon {
+    font-size: 35px!important;
+    padding:5px;
+    font-weight:500;
+}
+
 select {
     width:100%;
     font-size:18px;
@@ -73,7 +80,7 @@ select {
     margin-bottom:40px;
 }
 body {
-    background-color: rgba(60,60,104,0.3);
+    background-color:#fff;
 }
 #london {
     text-align:left;
@@ -89,9 +96,15 @@ body {
     margin-bottom:40px;
 }
 
+.countrieslist{
+    box-shadow: 0 2px 4px 0 rgba(60, 60, 104, 0.3);
+padding:30px;
+border-radius:25px;
+}
 .country_list {
     font-size:24px;
     font-weight:600;
+
 }
 #sydney {
     text-align:left;
